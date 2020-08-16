@@ -41,6 +41,10 @@
 		5250C58C24E9734E00650D7E /* WordBankError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58B24E9734E00650D7E /* WordBankError.swift */; };
 		5250C58E24E9735D00650D7E /* GameEngineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58D24E9735D00650D7E /* GameEngineError.swift */; };
 		5250C59224E97DF000650D7E /* GameOverAlertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C59124E97DF000650D7E /* GameOverAlertDetails.swift */; };
+		52A8DE3624E98E2200B7392B /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52A8DE3224E98E2200B7392B /* AvenirNextLTPro-Regular.otf */; };
+		52A8DE3724E98E2200B7392B /* AvenirNextLTPro-MediumIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52A8DE3324E98E2200B7392B /* AvenirNextLTPro-MediumIt.otf */; };
+		52A8DE3824E98E2200B7392B /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52A8DE3424E98E2200B7392B /* AvenirNextLTPro-Bold.otf */; };
+		52A8DE3924E98E2200B7392B /* AvenirNextLTPro-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52A8DE3524E98E2200B7392B /* AvenirNextLTPro-Demi.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +106,10 @@
 		5250C58B24E9734E00650D7E /* WordBankError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBankError.swift; sourceTree = "<group>"; };
 		5250C58D24E9735D00650D7E /* GameEngineError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineError.swift; sourceTree = "<group>"; };
 		5250C59124E97DF000650D7E /* GameOverAlertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverAlertDetails.swift; sourceTree = "<group>"; };
+		52A8DE3224E98E2200B7392B /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		52A8DE3324E98E2200B7392B /* AvenirNextLTPro-MediumIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-MediumIt.otf"; sourceTree = "<group>"; };
+		52A8DE3424E98E2200B7392B /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		52A8DE3524E98E2200B7392B /* AvenirNextLTPro-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNextLTPro-Demi.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +199,8 @@
 		5250C54524E9637800650D7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5250C54624E9639600650D7E /* words.json */,
+				52A8DE2F24E98DFF00B7392B /* WordsJSON */,
+				52A8DE3024E98E0C00B7392B /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -352,6 +361,33 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		52A8DE2F24E98DFF00B7392B /* WordsJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5250C54624E9639600650D7E /* words.json */,
+			);
+			path = WordsJSON;
+			sourceTree = "<group>";
+		};
+		52A8DE3024E98E0C00B7392B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52A8DE3124E98E1800B7392B /* AvenirNextPro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		52A8DE3124E98E1800B7392B /* AvenirNextPro */ = {
+			isa = PBXGroup;
+			children = (
+				52A8DE3424E98E2200B7392B /* AvenirNextLTPro-Bold.otf */,
+				52A8DE3524E98E2200B7392B /* AvenirNextLTPro-Demi.otf */,
+				52A8DE3324E98E2200B7392B /* AvenirNextLTPro-MediumIt.otf */,
+				52A8DE3224E98E2200B7392B /* AvenirNextLTPro-Regular.otf */,
+			);
+			path = AvenirNextPro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -458,9 +494,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5250C52024E9630100650D7E /* LaunchScreen.storyboard in Resources */,
+				52A8DE3924E98E2200B7392B /* AvenirNextLTPro-Demi.otf in Resources */,
 				5250C51D24E9630100650D7E /* Assets.xcassets in Resources */,
+				52A8DE3824E98E2200B7392B /* AvenirNextLTPro-Bold.otf in Resources */,
 				5250C54424E9632D00650D7E /* README.md in Resources */,
+				52A8DE3724E98E2200B7392B /* AvenirNextLTPro-MediumIt.otf in Resources */,
 				5250C51B24E9630000650D7E /* Main.storyboard in Resources */,
+				52A8DE3624E98E2200B7392B /* AvenirNextLTPro-Regular.otf in Resources */,
 				5250C54724E9639600650D7E /* words.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
