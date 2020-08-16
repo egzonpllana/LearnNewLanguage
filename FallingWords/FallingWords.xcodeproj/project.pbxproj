@@ -40,6 +40,7 @@
 		5250C58924E9731300650D7E /* FWGameEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58824E9731300650D7E /* FWGameEngineService.swift */; };
 		5250C58C24E9734E00650D7E /* WordBankError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58B24E9734E00650D7E /* WordBankError.swift */; };
 		5250C58E24E9735D00650D7E /* GameEngineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58D24E9735D00650D7E /* GameEngineError.swift */; };
+		5250C59224E97DF000650D7E /* GameOverAlertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C59124E97DF000650D7E /* GameOverAlertDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		5250C58824E9731300650D7E /* FWGameEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWGameEngineService.swift; sourceTree = "<group>"; };
 		5250C58B24E9734E00650D7E /* WordBankError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBankError.swift; sourceTree = "<group>"; };
 		5250C58D24E9735D00650D7E /* GameEngineError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineError.swift; sourceTree = "<group>"; };
+		5250C59124E97DF000650D7E /* GameOverAlertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverAlertDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 			children = (
 				5250C58B24E9734E00650D7E /* WordBankError.swift */,
 				5250C58D24E9735D00650D7E /* GameEngineError.swift */,
+				5250C59124E97DF000650D7E /* GameOverAlertDetails.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5250C59224E97DF000650D7E /* GameOverAlertDetails.swift in Sources */,
 				5250C51424E9630000650D7E /* AppDelegate.swift in Sources */,
 				5250C56624E96C6B00650D7E /* RandomWordModel.swift in Sources */,
 				5250C55924E9678700650D7E /* UIGradientView.swift in Sources */,
