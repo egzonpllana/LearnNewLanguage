@@ -72,10 +72,10 @@
 
 ### Swifty Protocol-Oriented Dependency Injection ###
 
-    * The key to dependency injection is protocols – from there sprouts many variations,
+    - The key to dependency injection is protocols – from there sprouts many variations,
     flavours, and techniques.
-    * Battle-tested DI implementation with no outside dependencies or magic. 
-    * It combines protocol extension and type erasure to give you a solid, flexible dependency
+    - Battle-tested DI implementation with no outside dependencies or magic. 
+    - It combines protocol extension and type erasure to give you a solid, flexible dependency
     injection that works great with unit test and even frameworks.
         
 ## Application Coding Pattern ##
