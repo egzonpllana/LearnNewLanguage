@@ -21,6 +21,23 @@ class FWFallingWordsRootViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func startButtonPressed(_ sender: Any) {
-        // TODO: Perform segue
+        self.performSegue(withIdentifier: .gameViewSegue, sender: nil)
+    }
+}
+
+// MARK: - Navigation
+
+extension FWFallingWordsRootViewController: SegueHandlerType {
+    enum SegueIdentifier: String {
+        case gameViewSegue
+    }
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segueIdentifierForSegue(segue: segue) {
+        case .gameViewSegue:
+            // Pass data if needed
+            break
+        }
     }
 }
