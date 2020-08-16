@@ -309,7 +309,7 @@ The player will see a word in language „one“ on the screen. While this word 
                                 <rect key="frame" x="32" y="108" width="350" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Given Word" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="035-jo-NWA">
-                                        <rect key="frame" x="107.5" y="0.0" width="105" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
                                         <color key="textColor" red="0.59215686270000001" green="0.79607843140000001" blue="0.35686274509999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -408,6 +408,7 @@ The player will see a word in language „one“ on the screen. While this word 
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="035-jo-NWA" firstAttribute="trailing" secondItem="CLj-Ry-8Xw" secondAttribute="trailing" id="1RP-Ka-pUn"/>
                             <constraint firstItem="O4n-a0-Uv3" firstAttribute="leading" secondItem="Y6I-da-FdH" secondAttribute="leading" id="3vi-ow-pUc"/>
                             <constraint firstItem="dFD-ox-b32" firstAttribute="leading" secondItem="CLj-Ry-8Xw" secondAttribute="trailing" constant="16" id="7o0-KF-WZD"/>
                             <constraint firstItem="FG1-w4-Xxa" firstAttribute="top" secondItem="CLj-Ry-8Xw" secondAttribute="bottom" constant="32" id="D1y-E2-qmM"/>
@@ -415,13 +416,13 @@ The player will see a word in language „one“ on the screen. While this word 
                             <constraint firstItem="CLj-Ry-8Xw" firstAttribute="leading" secondItem="Y6I-da-FdH" secondAttribute="leading" constant="32" id="G3w-Kg-RFQ"/>
                             <constraint firstItem="FG1-w4-Xxa" firstAttribute="centerX" secondItem="Y6I-da-FdH" secondAttribute="centerX" id="JDd-v4-8Vs"/>
                             <constraint firstItem="dFD-ox-b32" firstAttribute="top" secondItem="035-jo-NWA" secondAttribute="bottom" constant="40" id="M3Q-4L-c3b"/>
-                            <constraint firstItem="035-jo-NWA" firstAttribute="width" secondItem="CLj-Ry-8Xw" secondAttribute="width" multiplier="0.328125" id="PC6-FN-5bo"/>
                             <constraint firstItem="Hjn-CV-vF5" firstAttribute="trailing" secondItem="Y6I-da-FdH" secondAttribute="trailing" id="PMW-i2-h08"/>
                             <constraint firstItem="O4n-a0-Uv3" firstAttribute="top" secondItem="HLQ-2a-liW" secondAttribute="top" id="RR8-4O-uw4"/>
                             <constraint firstItem="Hjn-CV-vF5" firstAttribute="leading" secondItem="Y6I-da-FdH" secondAttribute="leading" id="RtQ-l7-PGz"/>
                             <constraint firstItem="CLj-Ry-8Xw" firstAttribute="top" secondItem="XCt-vf-42Z" secondAttribute="bottom" constant="32" id="UQ4-6t-CC9"/>
                             <constraint firstItem="Y6I-da-FdH" firstAttribute="trailing" secondItem="XCt-vf-42Z" secondAttribute="trailing" constant="32" id="Wqf-xE-Ytw"/>
                             <constraint firstItem="Wm4-Xk-IRC" firstAttribute="top" secondItem="dFD-ox-b32" secondAttribute="bottom" constant="8" id="ZXa-iV-F9t"/>
+                            <constraint firstItem="035-jo-NWA" firstAttribute="leading" secondItem="CLj-Ry-8Xw" secondAttribute="leading" id="bn5-xH-wzG"/>
                             <constraint firstItem="gPf-aQ-ySy" firstAttribute="top" secondItem="HLQ-2a-liW" secondAttribute="top" id="fQc-eT-xRm"/>
                             <constraint firstAttribute="bottom" secondItem="gPf-aQ-ySy" secondAttribute="bottom" id="fso-xe-1dg"/>
                             <constraint firstItem="Y6I-da-FdH" firstAttribute="trailing" secondItem="Wm4-Xk-IRC" secondAttribute="trailing" id="gB1-Bv-qJN"/>
