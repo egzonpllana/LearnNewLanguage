@@ -105,7 +105,7 @@
     
 ### First thing to improve or add if there had been more time ###
 
-    - I would implement game levels, Realm Storage Service to save user scoreboard and
+    Implement game levels, Realm Storage Service to save user scoreboard and
     high score to make the game more attractive and challengable. 
-    - Implement some basic Unit Test.
+    Implement some basic Unit Test.
 
