@@ -43,7 +43,7 @@
 ## Design Pattern: MVVC ##
     How Does the Model-View-ViewModel Pattern Work
     
-#### Rule #2 #### 
+#### Rule #1 #### 
     First, the view or window doesn't know about the controller it is owned by.
     Remember that views and windows are supposed to be dumb objects. They only know
     how to present data to the user. This is a rule you should never break. Ever. 
@@ -80,7 +80,7 @@
         
 ## Application Coding Pattern ##
 
-        Inpired by the way of coding by Olivier Voyer and Basem Emara.
-        Olivier Voyer: https://linkedin.com/in/oliviervoyer
-        Basem Emara: https://linkedin.com/in/basememara
+    Inpired by the way of coding by Olivier Voyer and Basem Emara.
+    Olivier Voyer: https://linkedin.com/in/oliviervoyer
+    Basem Emara: https://linkedin.com/in/basememara
         
