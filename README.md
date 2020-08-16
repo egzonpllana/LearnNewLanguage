@@ -84,3 +84,28 @@
     Olivier Voyer: https://linkedin.com/in/oliviervoyer
     Basem Emara: https://linkedin.com/in/basememara
         
+## Challenge ##
+
+### Time invested in this challenge ###
+    Planing the UI: 30min
+    Planing the App Architecture: 20min
+    Planing App Game Engine: 45 min
+    Implementing UI: 60min
+    Implementing Models and ViewModels: 25min
+    Implementing GameEngine and WordsBank services: 120min
+    Implemeting usage of GameEngine and WordsBank services: 60min
+    Testing the app during development time: 15min
+    
+    Total invested time: 6h and 25min.
+
+### Decisions made because of restricted time ###
+    Not much time to make more ui animations and to make the app more friendly.
+    Not much time to make the game more challengable with more game modes.
+    No time to build unit tests.
+    
+### First thing to improve or add if there had been more time ###
+
+    - I would implement game levels, Realm Storage Service to save user scoreboard and
+    high score to make the game more attractive and challengable. 
+    - Implement some basic Unit Test.
+
