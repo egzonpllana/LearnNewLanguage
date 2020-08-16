@@ -40,12 +40,12 @@ class FWFallingWordsViewController: UIViewController {
 
     @IBAction func thumbsUpButton(_ sender: Any) {
         // TODO: handle given answer
-        // TODO: bubble the button view
+        correctButtonView.bubble()
     }
 
     @IBAction func thumbsDownPressed(_ sender: Any) {
         // TODO: handle given answer
-        // TODO: bubble the button view
+        wrongButtonView.bubble()
     }
 
     @IBAction func exitButtonPressed(_ sender: Any) {

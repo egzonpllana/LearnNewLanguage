@@ -21,6 +21,7 @@
 		5250C55324E9664A00650D7E /* UIRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55224E9664A00650D7E /* UIRoundedView.swift */; };
 		5250C55524E9665B00650D7E /* UIExtendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55424E9665B00650D7E /* UIExtendedView.swift */; };
 		5250C55924E9678700650D7E /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55824E9678700650D7E /* UIGradientView.swift */; };
+		5250C55C24E969F600650D7E /* UIView+bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55B24E969F600650D7E /* UIView+bubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		5250C55224E9664A00650D7E /* UIRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedView.swift; sourceTree = "<group>"; };
 		5250C55424E9665B00650D7E /* UIExtendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtendedView.swift; sourceTree = "<group>"; };
 		5250C55824E9678700650D7E /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
+		5250C55B24E969F600650D7E /* UIView+bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+bubble.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				5250C54824E9650B00650D7E /* ViewControllers */,
 				5250C54524E9637800650D7E /* Resources */,
 				5250C55024E9661700650D7E /* GUI */,
+				5250C55A24E969E700650D7E /* Extensions */,
 				5250C51C24E9630100650D7E /* Assets.xcassets */,
 				5250C51E24E9630100650D7E /* LaunchScreen.storyboard */,
 			);
@@ -184,6 +187,14 @@
 				5250C51524E9630000650D7E /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5250C55A24E969E700650D7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5250C55B24E969F600650D7E /* UIView+bubble.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				5250C54F24E9657C00650D7E /* FWFallingWordsViewController.swift in Sources */,
 				5250C54D24E9656C00650D7E /* FWFallingWordsRootViewController.swift in Sources */,
 				5250C51624E9630000650D7E /* SceneDelegate.swift in Sources */,
+				5250C55C24E969F600650D7E /* UIView+bubble.swift in Sources */,
 				5250C55524E9665B00650D7E /* UIExtendedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
