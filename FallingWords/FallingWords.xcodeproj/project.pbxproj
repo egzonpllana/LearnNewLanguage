@@ -29,6 +29,17 @@
 		5250C56B24E96CB100650D7E /* AnswerResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C56A24E96CB100650D7E /* AnswerResultModel.swift */; };
 		5250C56D24E96CC100650D7E /* AnswerResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C56C24E96CC100650D7E /* AnswerResultViewModel.swift */; };
 		5250C57124E96CEF00650D7E /* StubData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C57024E96CEF00650D7E /* StubData.swift */; };
+		5250C57624E9722400650D7E /* CoreDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C57524E9722400650D7E /* CoreDependency.swift */; };
+		5250C57824E9723800650D7E /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C57724E9723800650D7E /* DependencyInjector.swift */; };
+		5250C57A24E9725600650D7E /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C57924E9725600650D7E /* AppDependency.swift */; };
+		5250C57F24E972BC00650D7E /* WordsBankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C57E24E972BC00650D7E /* WordsBankService.swift */; };
+		5250C58124E972C600650D7E /* MockWordsBankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58024E972C600650D7E /* MockWordsBankService.swift */; };
+		5250C58324E972D000650D7E /* FWWordBankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58224E972D000650D7E /* FWWordBankService.swift */; };
+		5250C58524E9730100650D7E /* GameEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58424E9730100650D7E /* GameEngineService.swift */; };
+		5250C58724E9730B00650D7E /* MockGameEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58624E9730B00650D7E /* MockGameEngineService.swift */; };
+		5250C58924E9731300650D7E /* FWGameEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58824E9731300650D7E /* FWGameEngineService.swift */; };
+		5250C58C24E9734E00650D7E /* WordBankError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58B24E9734E00650D7E /* WordBankError.swift */; };
+		5250C58E24E9735D00650D7E /* GameEngineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C58D24E9735D00650D7E /* GameEngineError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +88,18 @@
 		5250C56A24E96CB100650D7E /* AnswerResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerResultModel.swift; sourceTree = "<group>"; };
 		5250C56C24E96CC100650D7E /* AnswerResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerResultViewModel.swift; sourceTree = "<group>"; };
 		5250C57024E96CEF00650D7E /* StubData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubData.swift; sourceTree = "<group>"; };
+		5250C57424E9720C00650D7E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5250C57524E9722400650D7E /* CoreDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDependency.swift; sourceTree = "<group>"; };
+		5250C57724E9723800650D7E /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		5250C57924E9725600650D7E /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		5250C57E24E972BC00650D7E /* WordsBankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsBankService.swift; sourceTree = "<group>"; };
+		5250C58024E972C600650D7E /* MockWordsBankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWordsBankService.swift; sourceTree = "<group>"; };
+		5250C58224E972D000650D7E /* FWWordBankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWWordBankService.swift; sourceTree = "<group>"; };
+		5250C58424E9730100650D7E /* GameEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineService.swift; sourceTree = "<group>"; };
+		5250C58624E9730B00650D7E /* MockGameEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGameEngineService.swift; sourceTree = "<group>"; };
+		5250C58824E9731300650D7E /* FWGameEngineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWGameEngineService.swift; sourceTree = "<group>"; };
+		5250C58B24E9734E00650D7E /* WordBankError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBankError.swift; sourceTree = "<group>"; };
+		5250C58D24E9735D00650D7E /* GameEngineError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngineError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +153,11 @@
 			children = (
 				5250C52124E9630100650D7E /* Info.plist */,
 				5250C55124E9662000650D7E /* AppDelegate */,
+				5250C57224E971B100650D7E /* DependencyInjection */,
 				5250C54924E9651100650D7E /* Storyboards */,
 				5250C54824E9650B00650D7E /* ViewControllers */,
 				5250C56124E96C3F00650D7E /* Models */,
+				5250C58A24E9734000650D7E /* Enums */,
 				5250C54524E9637800650D7E /* Resources */,
 				5250C55024E9661700650D7E /* GUI */,
 				5250C55A24E969E700650D7E /* Extensions */,
@@ -264,6 +289,64 @@
 				5250C57024E96CEF00650D7E /* StubData.swift */,
 			);
 			path = StubDataModels;
+			sourceTree = "<group>";
+		};
+		5250C57224E971B100650D7E /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				5250C57424E9720C00650D7E /* README.md */,
+				5250C57324E971C200650D7E /* AppDependency */,
+				5250C57B24E9728E00650D7E /* Dependencies */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		5250C57324E971C200650D7E /* AppDependency */ = {
+			isa = PBXGroup;
+			children = (
+				5250C57724E9723800650D7E /* DependencyInjector.swift */,
+				5250C57524E9722400650D7E /* CoreDependency.swift */,
+				5250C57924E9725600650D7E /* AppDependency.swift */,
+			);
+			path = AppDependency;
+			sourceTree = "<group>";
+		};
+		5250C57B24E9728E00650D7E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				5250C57C24E9729E00650D7E /* WordBankService */,
+				5250C57D24E972A300650D7E /* GameEngineService */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		5250C57C24E9729E00650D7E /* WordBankService */ = {
+			isa = PBXGroup;
+			children = (
+				5250C57E24E972BC00650D7E /* WordsBankService.swift */,
+				5250C58024E972C600650D7E /* MockWordsBankService.swift */,
+				5250C58224E972D000650D7E /* FWWordBankService.swift */,
+			);
+			path = WordBankService;
+			sourceTree = "<group>";
+		};
+		5250C57D24E972A300650D7E /* GameEngineService */ = {
+			isa = PBXGroup;
+			children = (
+				5250C58424E9730100650D7E /* GameEngineService.swift */,
+				5250C58624E9730B00650D7E /* MockGameEngineService.swift */,
+				5250C58824E9731300650D7E /* FWGameEngineService.swift */,
+			);
+			path = GameEngineService;
+			sourceTree = "<group>";
+		};
+		5250C58A24E9734000650D7E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5250C58B24E9734E00650D7E /* WordBankError.swift */,
+				5250C58D24E9735D00650D7E /* GameEngineError.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,17 +486,28 @@
 				5250C51424E9630000650D7E /* AppDelegate.swift in Sources */,
 				5250C56624E96C6B00650D7E /* RandomWordModel.swift in Sources */,
 				5250C55924E9678700650D7E /* UIGradientView.swift in Sources */,
+				5250C58524E9730100650D7E /* GameEngineService.swift in Sources */,
+				5250C58124E972C600650D7E /* MockWordsBankService.swift in Sources */,
 				5250C56D24E96CC100650D7E /* AnswerResultViewModel.swift in Sources */,
 				5250C55324E9664A00650D7E /* UIRoundedView.swift in Sources */,
+				5250C57F24E972BC00650D7E /* WordsBankService.swift in Sources */,
+				5250C58324E972D000650D7E /* FWWordBankService.swift in Sources */,
 				5250C54F24E9657C00650D7E /* FWFallingWordsViewController.swift in Sources */,
+				5250C57A24E9725600650D7E /* AppDependency.swift in Sources */,
+				5250C58C24E9734E00650D7E /* WordBankError.swift in Sources */,
+				5250C58E24E9735D00650D7E /* GameEngineError.swift in Sources */,
+				5250C58724E9730B00650D7E /* MockGameEngineService.swift in Sources */,
 				5250C56824E96C7500650D7E /* RandomWordViewModel.swift in Sources */,
+				5250C57624E9722400650D7E /* CoreDependency.swift in Sources */,
 				5250C54D24E9656C00650D7E /* FWFallingWordsRootViewController.swift in Sources */,
 				5250C51624E9630000650D7E /* SceneDelegate.swift in Sources */,
 				5250C55C24E969F600650D7E /* UIView+bubble.swift in Sources */,
 				5250C56024E96A7E00650D7E /* SegueHandlerType.swift in Sources */,
+				5250C58924E9731300650D7E /* FWGameEngineService.swift in Sources */,
 				5250C55524E9665B00650D7E /* UIExtendedView.swift in Sources */,
 				5250C56324E96C5000650D7E /* WordModel.swift in Sources */,
 				5250C56B24E96CB100650D7E /* AnswerResultModel.swift in Sources */,
+				5250C57824E9723800650D7E /* DependencyInjector.swift in Sources */,
 				5250C57124E96CEF00650D7E /* StubData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
