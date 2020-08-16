@@ -40,7 +40,7 @@
     Application UI inspired from random designed views on
     Dribbble (https://dribbble.com).
 
-## Design Pattern: MVVC ##
+## Design Pattern: MVVM ##
     How Does the Model-View-ViewModel Pattern Work
     
 #### Rule #1 #### 
