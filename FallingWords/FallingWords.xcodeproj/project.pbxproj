@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5250C51424E9630000650D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C51324E9630000650D7E /* AppDelegate.swift */; };
 		5250C51624E9630000650D7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C51524E9630000650D7E /* SceneDelegate.swift */; };
-		5250C51824E9630000650D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C51724E9630000650D7E /* ViewController.swift */; };
 		5250C51B24E9630000650D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250C51924E9630000650D7E /* Main.storyboard */; };
 		5250C51D24E9630100650D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250C51C24E9630100650D7E /* Assets.xcassets */; };
 		5250C52024E9630100650D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250C51E24E9630100650D7E /* LaunchScreen.storyboard */; };
@@ -17,6 +16,11 @@
 		5250C53624E9630100650D7E /* FallingWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C53524E9630100650D7E /* FallingWordsUITests.swift */; };
 		5250C54424E9632D00650D7E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5250C54324E9632D00650D7E /* README.md */; };
 		5250C54724E9639600650D7E /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 5250C54624E9639600650D7E /* words.json */; };
+		5250C54D24E9656C00650D7E /* FWFallingWordsRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C54C24E9656C00650D7E /* FWFallingWordsRootViewController.swift */; };
+		5250C54F24E9657C00650D7E /* FWFallingWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C54E24E9657C00650D7E /* FWFallingWordsViewController.swift */; };
+		5250C55324E9664A00650D7E /* UIRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55224E9664A00650D7E /* UIRoundedView.swift */; };
+		5250C55524E9665B00650D7E /* UIExtendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55424E9665B00650D7E /* UIExtendedView.swift */; };
+		5250C55924E9678700650D7E /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250C55824E9678700650D7E /* UIGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		5250C51024E9630000650D7E /* FallingWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5250C51324E9630000650D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5250C51524E9630000650D7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5250C51724E9630000650D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5250C51A24E9630000650D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5250C51C24E9630100650D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5250C51F24E9630100650D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,11 @@
 		5250C53724E9630100650D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5250C54324E9632D00650D7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5250C54624E9639600650D7E /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		5250C54C24E9656C00650D7E /* FWFallingWordsRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWFallingWordsRootViewController.swift; sourceTree = "<group>"; };
+		5250C54E24E9657C00650D7E /* FWFallingWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWFallingWordsViewController.swift; sourceTree = "<group>"; };
+		5250C55224E9664A00650D7E /* UIRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedView.swift; sourceTree = "<group>"; };
+		5250C55424E9665B00650D7E /* UIExtendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtendedView.swift; sourceTree = "<group>"; };
+		5250C55824E9678700650D7E /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +112,14 @@
 		5250C51224E9630000650D7E /* FallingWords */ = {
 			isa = PBXGroup;
 			children = (
-				5250C51324E9630000650D7E /* AppDelegate.swift */,
-				5250C51524E9630000650D7E /* SceneDelegate.swift */,
-				5250C51724E9630000650D7E /* ViewController.swift */,
+				5250C52124E9630100650D7E /* Info.plist */,
+				5250C55124E9662000650D7E /* AppDelegate */,
+				5250C54924E9651100650D7E /* Storyboards */,
+				5250C54824E9650B00650D7E /* ViewControllers */,
 				5250C54524E9637800650D7E /* Resources */,
-				5250C51924E9630000650D7E /* Main.storyboard */,
+				5250C55024E9661700650D7E /* GUI */,
 				5250C51C24E9630100650D7E /* Assets.xcassets */,
 				5250C51E24E9630100650D7E /* LaunchScreen.storyboard */,
-				5250C52124E9630100650D7E /* Info.plist */,
 			);
 			path = FallingWords;
 			sourceTree = "<group>";
@@ -140,6 +148,42 @@
 				5250C54624E9639600650D7E /* words.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5250C54824E9650B00650D7E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5250C54C24E9656C00650D7E /* FWFallingWordsRootViewController.swift */,
+				5250C54E24E9657C00650D7E /* FWFallingWordsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5250C54924E9651100650D7E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5250C51924E9630000650D7E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5250C55024E9661700650D7E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				5250C55424E9665B00650D7E /* UIExtendedView.swift */,
+				5250C55224E9664A00650D7E /* UIRoundedView.swift */,
+				5250C55824E9678700650D7E /* UIGradientView.swift */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		5250C55124E9662000650D7E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5250C51324E9630000650D7E /* AppDelegate.swift */,
+				5250C51524E9630000650D7E /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +248,7 @@
 		5250C50824E9630000650D7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FW;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Native Coders";
@@ -275,9 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5250C51824E9630000650D7E /* ViewController.swift in Sources */,
 				5250C51424E9630000650D7E /* AppDelegate.swift in Sources */,
+				5250C55924E9678700650D7E /* UIGradientView.swift in Sources */,
+				5250C55324E9664A00650D7E /* UIRoundedView.swift in Sources */,
+				5250C54F24E9657C00650D7E /* FWFallingWordsViewController.swift in Sources */,
+				5250C54D24E9656C00650D7E /* FWFallingWordsRootViewController.swift in Sources */,
 				5250C51624E9630000650D7E /* SceneDelegate.swift in Sources */,
+				5250C55524E9665B00650D7E /* UIExtendedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

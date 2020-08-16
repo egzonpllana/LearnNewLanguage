@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FWFallingWordsRootViewController.swift
 //  FallingWords
 //
 //  Created by Egzon Pllana on 8/16/20.
@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FWFallingWordsRootViewController: UIViewController {
+
+    // MARK: - View life cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
+    // MARK: - Actions
 
+    @IBAction func startButtonPressed(_ sender: Any) {
+        // TODO: Perform segue
+    }
 }
-
