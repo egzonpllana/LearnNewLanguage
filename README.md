@@ -1,4 +1,6 @@
 # FallingWords - iOS App #
+![app-preview](https://user-images.githubusercontent.com/27929436/90338175-f2131e00-dfe7-11ea-84dd-03bcd820c4d9.png)
+
     A simple game that tries to focus on Game Engine and great view Animations.
     
 # Swifty Protocol-Oriented with Dependency Injection #
@@ -108,7 +110,3 @@
     Implement game levels, Realm Storage Service to save user scoreboard and
     high score to make the game more attractive and challengable. 
     Implement some basic Unit Test.
-
-## App Previews ##
-
-![Screen Shot 2020-08-16 at 2-2](https://user-images.githubusercontent.com/27929436/90338175-f2131e00-dfe7-11ea-84dd-03bcd820c4d9.png)
